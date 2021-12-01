@@ -1,0 +1,19 @@
+.card {
+  max-width: 85%;
+  margin: auto;
+  padding: 10px;
+}
+
+.friend-picture {
+  border-radius: 50%;
+  height: 53px;
+  width: 53px;
+  object-fit: cover;
+  object-position: center;
+  margin-right: 20px;
+}
+
+.update-icon {
+  max-width: 500px;
+  align-self: center;
+}

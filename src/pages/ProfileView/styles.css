@@ -1,0 +1,85 @@
+#profile-page header {
+  margin: 1em;
+}
+
+.header-logo {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 10vh 13vh;
+  grid-template-areas: 
+  "gimg-logo gheader-text";
+}
+
+.friendship-explanation {
+  color: rgb(55, 55, 255);
+}
+
+.user-updates {
+  margin-top: 64px;
+}
+
+.add-friend {
+  margin-top: 33px;
+}
+
+.level-userProfile {
+  text-align: end;
+  margin-top: -104px;
+}
+
+.options {
+  text-align: end;
+}
+
+.notVisible {
+  visibility: hidden;
+}
+
+.close-options-button {
+  margin-left: -20px;
+}
+
+.header-information {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.back-button {
+  margin: 30px 30px;
+  cursor: pointer;
+}
+
+.form-profile {
+  margin: 60px auto;
+  padding: 24px;
+  max-width: 1330px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  grid-area: gheader;
+}
+
+.img-logo {
+  max-width:73px;
+  max-height:73px;
+  width: auto;
+  height: auto;
+  grid-area: gimg-logo;
+}
+
+.user-profile-picture img {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 64px;
+}
+
+.user-banner {
+  text-align: center;
+}

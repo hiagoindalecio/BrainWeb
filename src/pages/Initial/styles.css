@@ -1,0 +1,113 @@
+#initial-page .content header {
+  margin: 1em;
+}
+
+.presentation {
+  margin: auto;
+  padding: 20px;
+}
+
+.header-logo {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 10vh 13vh;
+  grid-template-areas: 
+  "gimg-logo gheader-text";
+}
+
+.img-level {
+  max-width: 103px;
+  min-width: 103px;
+}
+
+@media(min-width: 600px) {
+  .cl-presentation {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 6fr 3fr;
+    grid-template-areas: 
+    "gtext-btn gavatar";
+    margin-top: 10%;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+@media(max-width: 600px) {
+  .cl-presentation {
+    align-items: stretch;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+.avatar-img {
+  max-height:550px;
+  width: auto;
+  height: auto;
+  grid-area: gavatar;
+}
+
+.img-logo {
+  max-width:73px;
+  max-height:73px;
+  width: auto;
+  height: auto;
+  grid-area: gimg-logo;
+}
+
+.header-text {
+  grid-area: gheader-text;
+}
+
+.text-btn {
+  grid-area: gtext-btn;
+}
+
+.header {
+  grid-area: gheader;
+}
+
+#initial-page .content form a {
+  width: 100%;
+  max-width: 360px;
+  height: 72px;
+  background: var(--primary-color);
+  border-radius: 8px;
+  text-decoration: none;
+  
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  
+  margin-top: 40px;
+}
+
+#initial-page .content form a span {
+  display: block;
+  background: rgba(0, 0, 0, 0.08);
+  width: 72px;
+  height: 72px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+}
+
+#initial-page .content form a span svg {
+  color: #FFF;
+  width: 20px;
+  height: 20px;
+}
+
+#initial-page .content form a strong {
+  flex: 1;
+  text-align: center;
+  color: #FFF;
+}
+
+#initial-page .content form a:hover {
+  background: #7ec8e3b7;
+}

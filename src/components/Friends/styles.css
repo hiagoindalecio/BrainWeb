@@ -1,0 +1,50 @@
+.header-menu-item {
+    cursor: default !important;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.header-text {
+    text-align: center;
+}
+
+.header-text span {
+    font-size: 18px !important;
+}
+
+.profile-friend-pic {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    object-position: center;
+}
+
+button:active {
+    outline: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+.notVisible {
+    visibility: hidden;
+}
+
+.how-much {
+    background-color: red;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    color: white;
+    margin-bottom: 20px;
+    margin-left: -15px;
+}
+
+.friends-icon {
+    font-size: 2.1875rem;
+    margin-right: 12px; 
+}
